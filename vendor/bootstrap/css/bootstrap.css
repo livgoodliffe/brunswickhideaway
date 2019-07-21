@@ -481,13 +481,6 @@ mark,
   height: 100%;
 }
 
-.img-fluid-90 {
-  max-height: 100%;
-  width: 100%;
-}
-
-
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

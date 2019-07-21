@@ -272,7 +272,7 @@ header.masthead .site-heading h1 {
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 1.1;
   display: block;
@@ -334,13 +334,22 @@ header.masthead .post-heading .meta a {
   margin: 0 0 15px;
 }
 
+/*#portfolio .portfolio-item-90 img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}*/
+
 #portfolio .portfolio-item img {
   height: 250px;
   width: 100%;
   object-fit: cover
 }
-
-
 
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
