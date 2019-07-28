@@ -32,6 +32,10 @@ ul {
   padding-inline-start: 15px;
 }
 
+hr {
+  border: 1px solid #0085a1;
+}
+
 .page-section {
   padding: 100px 0;
 }
