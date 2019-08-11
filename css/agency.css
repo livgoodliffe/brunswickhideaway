@@ -1,3 +1,8 @@
+.img-fluid {
+  object-position: center;
+  object-fit: cover;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -471,8 +476,8 @@ ul.social-buttons li a {
   font-size: 20px;
   line-height: 50px;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: white;
