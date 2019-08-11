@@ -28,11 +28,7 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
-  font-weight: 300;
-}
-
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -270,13 +266,13 @@ header.masthead .site-heading {
   }
 }
 
-header.masthead .page-heading h1,
+/*header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-size: 40px;
   margin-top: 0;
-}
+}*/
 
-header.masthead .page-heading .subheading,
+/*header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   font-size: 40px;
   font-weight: 300;
@@ -284,14 +280,14 @@ header.masthead .site-heading .subheading {
   display: block;
   margin: 10px 0 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+}*/
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 70px;
   }
-}
+}*/
 
 header.masthead .post-heading h1 {
   font-size: 35px;
