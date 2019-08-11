@@ -340,7 +340,7 @@ header.masthead .post-heading .meta a {
 }
 
 #portfolio .gallery-item-90 img {
-  transform: rotate(90deg);
+  transform: rotate(90deg) !important;
   position: absolute;
   object-fit: cover;
 }
@@ -354,27 +354,6 @@ header.masthead .post-heading .meta a {
   #portfolio .gallery-item {
     margin: 0 0 30px;
   }
-}
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.team-member img {
-  width: 150px;
-  height: 150px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
 }
 
 section#contact {
