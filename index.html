@@ -21,9 +21,21 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Pro fontawaesome -->
-
   <script src="https://kit.fontawesome.com/af4050200f.js"></script>
 
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+
+  <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -31,7 +43,6 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -325,12 +336,22 @@
         </div>
       </div>
 
-      <div class="row text-center">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1iFBY_cThrsEDVwRKx-rD-OIfHCt2sV-1"
-                height="500"
-                width="100%"
-                style="border:none;"></iframe>
-      </div>
+      <img alt="" src="https://maps.googleapis.com/maps/api/staticmap?size=648x348&amp;zoom=14&amp;center=-37.77473,144.9456&amp;scale=2&amp;path=color%3A0x007A87%7Cfillcolor%3A0x00d1c166%7Cweight%3A1%7Cenc%3A%7C~oeF_utsZLeEf%40_EbAqDxAcDlBkC~BqBlCsAvCq%40zCQzCPvCp%40lCrA~BpBlBjCxAbDbApDf%40~DLdEMdEg%40~DcApDyAbDmBjC_CpBmCrAwCp%40%7BCP%7BCQwCq%40mCsA_CqBmBkCyAcDcAqDg%40_EMeE%3F%3F&amp;client=gme-airbnbinc&amp;channel=monorail-prod&amp;signature=dBj1PveiFMBuajlQ-K5EcnjIJ6o%3D" style="width: 100%;">
+
+
+      <div id='map'></div>
+      <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibGl2Z29vZGxpZmZlIiwiYSI6ImNqdmhqc3l0MDA0ZGU0OXBlbnlidmJndzQifQ.E4kcmVoynbdJMuMBbf1nUQ';
+      var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+      center: [-74.50, 40], // starting position [lng, lat]
+      zoom: 9 // starting zoom
+      });
+      </script>
+
+
+      </script>
 
 
       <h4 class="service-heading mt-5">Brunswick</h4>
