@@ -6,19 +6,7 @@ var citymap = {
   melbourne: {
     center: {lat: -37.774249, lng: 144.944207},
     population: 10
-  },
-  // newyork: {
-  //   center: {lat: 40.714, lng: -74.005},
-  //   population: 8405837
-  // },
-  // losangeles: {
-  //   center: {lat: 34.052, lng: -118.243},
-  //   population: 3857799
-  // },
-  // vancouver: {
-  //   center: {lat: 49.25, lng: -123.1},
-  //   population: 603502
-  // }
+  }
 };
 
 function initMap() {
