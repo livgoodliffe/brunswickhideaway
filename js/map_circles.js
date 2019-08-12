@@ -11,8 +11,6 @@ var citymap = {
 
 function initMap() {
 
-  alert("Yes");
-
   // Create the map.
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
@@ -37,4 +35,4 @@ function initMap() {
   }
 }
 
-google.maps.event.addDomListener(window, "load", initMap);
+// google.maps.event.addDomListener(window, "load", initMap);
