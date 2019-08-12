@@ -11,7 +11,7 @@
   object-fit: cover;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 767px) {
   .img-fluid-90 {
     object-position: center;
     object-fit: cover;
