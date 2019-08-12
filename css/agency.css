@@ -1,18 +1,26 @@
+/*Location*/
 
 #map {
-  height: 100% !important;
-}
-/* Optional: Makes the sample page fill the window. */
-/*html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
-}*/
+}
+
+/*Gallery*/
 
 .img-fluid {
   object-position: center;
   object-fit: cover;
 }
+
+.img-fluid-90 {
+  object-position: center;
+  object-fit: cover;
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
 
 body {
   overflow-x: hidden;
